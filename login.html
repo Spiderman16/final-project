@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<!--This page is the login for the Uat space page, it is due 10Oct2021
+By: Curran Rose email: curranrose21@icloud.com
+-->
+<html>
+    <head>
+        <script src="login.js"></script>
+        <link href="loginstyle.css" rel="stylesheet" type="text/css"/>
+        <title>UAT Space Login Page</title>
+    </head>
+    <body>
+        <br>
+        <br>
+        <br>
+    <h1 id="loginTitletext">Welcome to the UAT space page</h1>
+    <h2><div id="loginDivtext">login first now</div></h2>
+    <br>
+    <p id="loginStatus">Status of login...</p>
+    <br>
+    <form id="creditSubmit" onsubmit="return false">
+        first name: <input type="text" id="fname" /> <br>
+        last name: <input type="text" id="lname" /> <br>
+        Badge number: <input type="number" id="badgeID" /> <br>
+        <input type="submit" onclick="checkCreds();" />
+
+    </form>
+    </body>
+</html>
